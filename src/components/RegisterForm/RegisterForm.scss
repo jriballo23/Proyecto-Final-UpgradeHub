@@ -1,0 +1,203 @@
+
+.content-form-register{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    box-shadow: 1px 1px 10px black;
+    height: 350px;
+    align-items: center;
+    background-color: #334791;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    .content-register{
+        width: 250px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+
+        .label-name{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-name{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+        }
+
+        .label-nick{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-nick{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-birth{
+            border-radius: 0px;
+            margin-right: 17px;
+        }
+        .input-birth{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-cp{
+            border-radius: 0px;
+            margin-right: 65px;
+        }
+        .input-cp{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-email{
+            border-radius: 0px;
+            margin-right: 45px;
+            
+        }
+        .input-email{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-password{
+            border-radius: 0px;
+            margin-right: 12px;
+        }
+        .input-password{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+    }
+    .btn-register{
+        border: none;
+        border-radius: 30px;
+        width: 80px;
+        height: 30px;
+        margin-bottom: 20px;
+        background-color:#642165;
+        color: white;
+
+    }
+    .btn-register:hover{
+        background-color: rgb(101, 24, 153);
+        color: white;
+        box-shadow: 1px 1px 10px rgb(255, 0, 255);
+    }
+}
+
+@media (max-width:769px) {  
+    
+.content-form-register{
+    display: flex;
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 2px;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    height: 46.5rem;
+    align-items: center;
+    background-color: #334791;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    .content-register{
+        position: absolute;
+        top: 300px;
+        width: 250px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+
+        .label-name{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-name{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+        }
+
+        .label-nick{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-nick{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-birth{
+            border-radius: 0px;
+            margin-right: 17px;
+        }
+        .input-birth{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-cp{
+            border-radius: 0px;
+            margin-right: 65px;
+        }
+        .input-cp{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-email{
+            border-radius: 0px;
+            margin-right: 45px;
+            
+        }
+        .input-email{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-password{
+            border-radius: 0px;
+            margin-right: 12px;
+        }
+        .input-password{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+    }
+    .btn-register{
+        position: absolute;
+        bottom: 210px;
+        border: none;
+        border-radius: 30px;
+        width: 80px;
+        height: 30px;
+        margin-bottom: 20px;
+
+    }
+    .btn-register:hover{
+        background-color: rgb(101, 24, 153);
+        color: white;
+        box-shadow: 1px 1px 10px rgb(255, 0, 255);
+    }
+}
+}

@@ -1,0 +1,62 @@
+{
+    "products": "/api/products",
+    "schema": {
+        "tipo": "string",
+        "marca": "string"
+    },
+    "endpoints": [
+        {
+            "Action": "GET",
+            "URL": "/api/products",
+            "response": [
+                {
+                    "_id": "622a15e53f3dfc5a31605ca0",
+                    "tipo": "consola",
+                    "marca": "prueba1",
+                    "createdAt": "2022-03-10T15:14:45.544Z",
+                    "updatedAt": "2022-03-10T15:14:45.544Z",
+                    "__v": 0
+                }
+                
+            ]
+        },
+        
+        {
+            "Action": "POST",
+            "URL": "/api/products",
+            "request-body": {
+                "_id": "622a24e03f3dfc5a31605cf4",
+                "tipo": "The Shadow Demon",
+                "marca": "Villain's spy",
+                "createdAt": "2022-03-10T16:18:40.573Z",
+                "updatedAt": "2022-03-10T16:18:40.573Z",
+                "__v": 0
+            }
+        },
+        {
+            "Action": "PATCH",
+            "URL": "/api/products",
+            "request-body": {
+                "_id": "622a21cf3f3dfc5a31605ce8",
+                "tipo": "Venger",
+                "marca": "Villano",
+                "createdAt": "2022-03-10T16:05:35.257Z",
+                "updatedAt": "2022-03-10T16:12:56.926Z",
+                "__v": 0
+            }
+        },
+        {"Action": "GET",
+            "URL": "/api/products/id",
+            "response": [
+                {
+                    "_id": "622a15e53f3dfc5a31605ca0",
+                    "tipo": "Hank",
+                    "marca": "Ranger",
+                    "createdAt": "2022-03-10T15:14:45.544Z",
+                    "updatedAt": "2022-03-10T15:14:45.544Z",
+                    "__v": 0
+                }
+            ]
+        }
+    ]
+}

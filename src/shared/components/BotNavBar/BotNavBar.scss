@@ -1,0 +1,15 @@
+.botnavbar{
+    width: 100%;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    background-color: lightgrey;
+    bottom: 0px;
+}
+
+.mas{
+    margin-top: 5px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 100px;
+}

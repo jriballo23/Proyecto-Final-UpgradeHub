@@ -1,0 +1,21 @@
+.map-container {
+    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    background-color: #334791;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
+
+    .map {
+        box-shadow: 1px 1px 10px black;
+        max-height: 530px;
+        height: 100%;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -50px;
+        border-radius: 30px;
+    }
+}
+
